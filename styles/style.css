@@ -1,3 +1,10 @@
+/* 
+1. Position property.
+2. Box model property.
+3. Text property.
+4. Visuals properties.
+5. Miscellaneous property. 
+*/
 /* === Global === */
 *{
     font-family: 'Roboto', sans-serif;
@@ -16,7 +23,16 @@ h1, h2 ,h3, form{
 
 /* BEM */
 .exit{
-    text-align: center;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem 6rem 1rem;
+    border: 2px solid;
+
     font-size: 1.5rem;
+    text-align: center;
     text-transform: uppercase;
+
+    background-color: lightblue;
 }
