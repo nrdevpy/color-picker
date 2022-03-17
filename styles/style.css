@@ -8,7 +8,14 @@ body{
 h1, h2 ,h3, form{
     text-align: center;
 }
+
 /* Utilities */
 .container{
     width: 90%;
+}
+
+/* BEM */
+.exit{
+    text-align: center;
+    font-size: 1.5rem;
 }
