@@ -1,0 +1,14 @@
+/* === Global === */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    box-sizing: border-box;
+}
+h1, h2 ,h3{
+    text-align: center;
+}
+/* Utilities */
+.container{
+    width: 90%;
+}
