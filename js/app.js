@@ -1,10 +1,13 @@
-// * Variables
+// * Variables.
 const exit = document.getElementById('exit');
 const color = document.forms['form']['color'];
 
-// * Events
-// Event to change hexadecimal color text and background color.
-color.addEventListener('input', () => {
+// * Functions.
+// Function to change hexadecimal color text and background color.
+const setColor = () => {
     const value = color.value;    
     exit.innerHTML = exit.style.backgroundColor = value;
-});
+}
+
+// * Events.
+color.addEventListener('input', setColor);
