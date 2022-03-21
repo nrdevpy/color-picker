@@ -6,12 +6,22 @@ data in the browser storage
 // * Variables.
 const storage = JSON.parse(localStorage.getItem('colorValue'));
 const arrColor = [];
+const section = document.getElementById('colorSection');
 
 // Hook every color of browser storage.
-if (storage !== null) {
-    for (let i of storage) {
-        console.log (`Taking data... ${i}`);
-        arrColor.push(i);
+const loadColors = () => {
+    if (storage !== null) {
+        let insHTML = '';
+        
+        for (let i of storage) {
+            console.log (`Taking data... ${i}`);
+            arrColor.push(i);
+            insHTML += `
+                <div class="colorTest" style="background-color: ${i};">${i}</div>
+            `;
+        }
+
+        section.innerHTML = insHTML;
     }
 }
 

@@ -19,7 +19,7 @@
         <!-- Styles -->
         <link rel="stylesheet" href="styles/style.css"/>
     </head>
-    <body>
+    <body onload="startApp()">
         <main class="main">
             <h1>Color Picker</h1>
             <div id="exit" class="exit">
@@ -30,13 +30,7 @@
             </form>
         </main>
         
-        <section class="container flex__section">
-            <div class="colorTest">#111</div>
-            <div class="colorTest">#111</div>
-            <div class="colorTest">#111</div>
-            <div class="colorTest">#111</div>
-            <div class="colorTest">#111</div>
-        </section>
+        <section class="container flex__section" id="colorSection"></section>
         
         <!-- Scripts -->
         <script src="js/local-storage.js"></script>

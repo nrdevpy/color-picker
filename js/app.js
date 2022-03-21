@@ -1,3 +1,5 @@
+// TODO: Fix bug of adding double colors.
+
 // * Variables.
 const exit = document.getElementById('exit');
 const color = document.forms['form']['color'];
@@ -12,3 +14,8 @@ const setColor = () => {
 
 // * Events.
 color.addEventListener('change', setColor);
+
+// * Start app.
+const startApp = () => {
+    loadColors();
+}
