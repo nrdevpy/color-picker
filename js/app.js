@@ -7,7 +7,8 @@ const color = document.forms['form']['color'];
 const setColor = () => {
     const value = color.value;    
     exit.innerHTML = exit.style.backgroundColor = value;
+    saveColor(value);
 }
 
 // * Events.
-color.addEventListener('input', setColor);
+color.addEventListener('change', setColor);
