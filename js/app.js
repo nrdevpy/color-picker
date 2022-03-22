@@ -1,3 +1,7 @@
+// TODO: Evitar que se puedan guardar colores iguales.
+// TODO: Poder eliminar colores.
+
+
 // * Variables.
 const exit = document.getElementById('exit');
 const color = document.forms['form']['color'];
