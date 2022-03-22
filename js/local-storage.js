@@ -24,7 +24,7 @@ const loadColors = () => {
         for (let i of storage) {
             arrColor.push(i);
             insHTML += `
-                <div class="colorTest" style="background-color: ${i};">${i}</div>
+                <div class="colorSaved" style="background-color: ${i};">${i}</div>
             `;
         }
         section.innerHTML = insHTML;
