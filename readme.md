@@ -13,10 +13,13 @@ Color Picker is a web application where you can select any color and save it for
 <br>
 
 ## CSS
+* Custom Properties.
+* Flexbox.
 * (BEM) Block Element Modifier.
 * (RWD) Responsive Web Design.
 * Mobile First.
 ## JavaScript
+* (DOM) Document Object Model.
 * Local Storage.
 * (OOP) Object Oriented Programming.
 <br><br>
